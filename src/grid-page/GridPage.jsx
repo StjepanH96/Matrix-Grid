@@ -2,7 +2,7 @@
 import { useGridState } from '../state/GridState';
 import { Button, Container, Result, Subtitle,Title} from '../style/StyledPage';
 
-export const GridTraversal = () => {
+export const GridPage = () => {
 
     const { path, collectedLetters, traverseGrid, resetGrid } = useGridState();
 

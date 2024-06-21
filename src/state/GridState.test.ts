@@ -2,7 +2,7 @@ import { act } from 'react';
 import { renderHook } from '@testing-library/react';
 import { useGridState } from './GridState';  
 
-describe('useGridTraversal', () => {
+describe('useGridState', () => {
   test('initial state', () => {
     const { result } = renderHook(() => useGridState());
     expect(result.current.path).toBe('');
