@@ -1,11 +1,9 @@
 #  SAUNA-code-challenge
 
+Go to the root of the project and start the app with npm start. Also, use npm test to run tests with Jest functionalities.
 
+I used @testing-library/react for testing and added some assertions for state management.
 
-### `npm start`
+The app is written in JavaScript XML (JSX) with TypeScript. :)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Enjoy!
