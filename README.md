@@ -1,4 +1,4 @@
-#  SAUNA-code-challenge
+#  Sauna-code-challenge
 
 Go to the root of the project and start the app with npm start. Also, use npm test to run tests with Jest functionalities.
 
