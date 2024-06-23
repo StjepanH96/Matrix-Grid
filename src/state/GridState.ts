@@ -19,6 +19,7 @@ export const useGridState = () => {
 
   const traverseGrid = useCallback(() => {
     let atCount = 0;
+    let hasEnd = false; 
     let row: number = 0;
     let col: number = 0;
     let direction: [number, number] = [0, 1]; 
@@ -32,7 +33,15 @@ export const useGridState = () => {
         row = i;
         col = j;
       }
+      if (c === 'x') {
+        hasEnd = true;
+      }
     }));
+
+    if (!hasEnd) {
+      alert("Invalid map: No end point 'x' found.");
+      return;
+    }
 
     if (atCount === 0) {
       alert("Invalid map: No starting point '@' found.");
